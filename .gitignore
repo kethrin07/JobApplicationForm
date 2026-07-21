@@ -1,2 +1,7 @@
-# Keep real Supabase keys out of version control
-config.js
+# macOS
+.DS_Store
+
+# Note: config.js is intentionally committed. For this static site it holds
+# only the Supabase project URL and the public anon/publishable key, both of
+# which are exposed in the browser anyway. Your data is protected by RLS, and
+# the secret service_role key lives only in Supabase (never in this repo).
