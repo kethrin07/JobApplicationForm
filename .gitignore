@@ -1,0 +1,2 @@
+# Keep real Supabase keys out of version control
+config.js
